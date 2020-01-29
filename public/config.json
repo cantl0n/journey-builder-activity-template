@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://enl50cq9y180g.x.pipedream.net/journeybuilder/execute",
+          "url": "https://bc-custom-activity-2.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "2ff6b7f7-9226-4c67-9674-a4df6110caac",
       "save": {
-        "url": "https://enl50cq9y180g.x.pipedream.net/journeybuilder/save",
+        "url": "https://bc-custom-activity-2.herokuapp.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://enl50cq9y180g.x.pipedream.net/journeybuilder/publish",
+        "url": "https://bc-custom-activity-2.herokuapp.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://enl50cq9y180g.x.pipedream.net/journeybuilder/stop",
+        "url": "https://bc-custom-activity-2.herokuapp.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://enl50cq9y180g.x.pipedream.net/journeybuilder/validate",
+        "url": "https://bc-custom-activity-2.herokuapp.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
