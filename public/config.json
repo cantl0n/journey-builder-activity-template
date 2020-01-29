@@ -23,7 +23,7 @@
           "outArguments": [],
           "url": "https://bc-custom-activity-2.herokuapp.com/journeybuilder/execute",
            "verb": "POST",
-            "body": "",
+            "body": "emailAddress",
             "header": "",
             "format": "json",
             "useJwt": true,
