@@ -4,7 +4,7 @@ define([
     Postmonger
 ) {
     'use strict';
-
+    console.log("Inside Custom Activity")
     var connection = new Postmonger.Session();
     var authTokens = {};
     var payload = {};
@@ -40,7 +40,7 @@ define([
 
         var inArguments = hasInArguments ? payload['arguments'].execute.inArguments : {};
 
-        console.log(inArguments);
+        console.log("///In arguments///" + inArguments);
 
         $.each(inArguments, function (index, inArgument) {
             $.each(inArgument, function (key, val) {
