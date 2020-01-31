@@ -71,7 +71,7 @@ define([
 
         payload['arguments'].execute.inArguments = [{
             "tokens": authTokens,
-            "emailAddress": "{{Contact.Attribute.PostcardJourney.EmailAddress}}"
+            "contactIdentifier": "{{Contact.Key}}"
         }];
         
         payload['metaData'].isConfigured = true;
