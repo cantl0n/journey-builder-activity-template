@@ -4,7 +4,7 @@ define([
     Postmonger
 ) {
     'use strict';
-    console.log("Inside Custom Activity")
+    console.log("Inside Custom Activity");
     var connection = new Postmonger.Session();
     var authTokens = {};
     var payload = {};
